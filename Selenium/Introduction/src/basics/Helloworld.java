@@ -14,7 +14,8 @@ public class Helloworld {
 		int c=a+b;
 		System.out.print("sum " + " is " + c);
 		*/
-		HeaderValidator x = new HeaderValidator();
-		x.validateHeader();
+		HeaderValidator a = new HeaderValidator();
+		a.validateHeader();
+		a.validateHeader = 5;
 	}
 }
